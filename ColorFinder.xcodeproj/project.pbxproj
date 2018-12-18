@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		404CB66E21C93F5900EB0D24 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404CB66D21C93F5900EB0D24 /* Extensions.swift */; };
 		40A6F04221B8D4C50052E635 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A6F04121B8D4C50052E635 /* AppDelegate.swift */; };
 		40A6F04421B8D4C50052E635 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A6F04321B8D4C50052E635 /* ViewController.swift */; };
 		40A6F04721B8D4C50052E635 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40A6F04521B8D4C50052E635 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		404CB66D21C93F5900EB0D24 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		40A6F03E21B8D4C50052E635 /* ColorFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40A6F04121B8D4C50052E635 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40A6F04321B8D4C50052E635 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				40A6F04821B8D4C60052E635 /* Assets.xcassets */,
 				40A6F04A21B8D4C60052E635 /* LaunchScreen.storyboard */,
 				40A6F04D21B8D4C60052E635 /* Info.plist */,
+				404CB66D21C93F5900EB0D24 /* Extensions.swift */,
 			);
 			path = ColorFinder;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				40A6F04421B8D4C50052E635 /* ViewController.swift in Sources */,
+				404CB66E21C93F5900EB0D24 /* Extensions.swift in Sources */,
 				40A6F04221B8D4C50052E635 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,7 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6TDB97755K;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ColorFinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,7 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6TDB97755K;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ColorFinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
