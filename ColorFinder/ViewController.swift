@@ -15,7 +15,6 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var hexValue: UITextField!
     @IBOutlet weak var rgbValue: UITextField!
-    var image: UIImage!
     
     
     override func viewDidLoad() {
@@ -54,7 +53,6 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         }
 
         imageView.image = selectedImage
-        image = selectedImage
 
         dismiss(animated: true, completion: nil)
     }
